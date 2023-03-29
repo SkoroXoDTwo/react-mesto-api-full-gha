@@ -1,0 +1,11 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .auth {
+    padding: 0 30px 40px;
+  }
+}

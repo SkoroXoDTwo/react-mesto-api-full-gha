@@ -1,0 +1,49 @@
+.header__burger-btn {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  width: 24px;
+  border-top: 3px solid #fff;
+  height: 21px;
+  position: relative;
+  display: none;
+  justify-self: end;
+}
+
+.header__burger-btn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .header__burger-btn {
+    margin-top: 27px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header__burger-btn {
+    margin-right: 30px;
+  }
+}
+
+.header__burger-btn::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+  transition: transform 0.4s;
+}
+
+.header__burger-btn::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 0px;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+  transition: transform 0.4s;
+}

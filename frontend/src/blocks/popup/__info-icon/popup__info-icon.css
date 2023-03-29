@@ -1,0 +1,8 @@
+.popup__info-icon {
+  width: 120px;
+  height: 120px;
+  background: url(../../../images/popup-info-resolved-icon.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

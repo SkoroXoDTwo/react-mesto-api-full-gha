@@ -1,0 +1,18 @@
+.auth__btn-footer {
+  margin: 15px 0 0;
+  padding: 0;
+  background: none;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  transition: opacity 0.2s;
+}
+
+.auth__btn-footer:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

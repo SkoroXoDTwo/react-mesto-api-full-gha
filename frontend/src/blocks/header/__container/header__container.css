@@ -1,0 +1,12 @@
+.header__container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .header__menu {
+    grid-template-rows: repeat(2, auto);
+  }
+}
