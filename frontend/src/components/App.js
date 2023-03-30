@@ -162,11 +162,22 @@ function App() {
       });
   };
 
+  const resetProfileData = () => {
+    setCurrentUser({
+      name: "Загрузка...",
+      about: "Загрузка...",
+      avatar: avatarLoaderGif,
+    });
+    setCards([]);
+    setLoginUser("");
+  }
+
   const handleSignOut = () => {
     localStorage.removeItem("jwt");
     setJwt('');
     setIsLoggedIn(false);
     navigate("/sign-in");
+    resetProfileData();
   };
 
   const closeAllPopups = () => {
